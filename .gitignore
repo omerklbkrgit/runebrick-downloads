@@ -1,0 +1,12 @@
+# Never commit Android binaries or signing keys into git history.
+# Upload APK builds to GitHub Releases instead.
+*.apk
+*.aab
+*.obb
+*.ipa
+*.keystore
+*.jks
+*.p12
+*.zip
+.DS_Store
+Thumbs.db
